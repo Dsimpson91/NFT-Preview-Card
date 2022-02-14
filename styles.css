@@ -35,9 +35,9 @@
 }
 
 .Card {
-    height: 450px;
-    width: 270px;
-    border: solid white 2px;
+    height: 595px;
+    width: 345px;
+    border-radius: 20px;
     justify-self: center;
     align-self: center;
     display: flex;
@@ -47,25 +47,30 @@
 }
 
 .img-div {
-    height: 200px;
-    width: 230px;
-    border: orange 2px solid;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
 }
 
 .img-div img {
     object-fit: cover;
     height: 100%;
     width: 100%;
+    border-radius: 10px;
 }
 
 .text-div {
     color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
-    
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 17px;
 }
 
 .text-div h3 {
     font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .text-div p {
@@ -73,21 +78,58 @@
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
+    margin-bottom: 17px;
     
 }
 
-.lower-text {
+.lower-text  {
     display: flex;
     justify-content: space-between;
+    font-size: 15;
+}
+
+.eth img {
+    height: 18px;
+    width: 10px;
+    margin-right: 8px;
+    padding-top: 3px;
+}
+
+.clock img {
+    height: 18px;
+    width: 16px;
+    margin-right: 8px;
+    padding-top: 3px;
 }
 
 
 .bottom-div {
     display: flex;
-    
+    justify-content: flex-start;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    width: 100%;
+    height: 300px;
+    margin-left: 50px;
+}
+
+hr {
+    background-color: hsl(215, 32%, 27%);
+    width: 85%;
+    height: -1px;
 }
 
 .bottom-div img {
   border: 2px solid hsl(215, 51%, 70%);
+  border-radius: 200px;
   height: 25px;
+  margin-right: 10px;
+}
+
+.bottom-div p {
+    font-family: 'Outfit', sans-serif;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
 }
