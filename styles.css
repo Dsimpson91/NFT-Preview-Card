@@ -3,6 +3,27 @@
     padding: 0;
 }
 
+.flex {
+    display: flex;
+}
+
+/* Primary Colors */
+.Soft-blue{
+  color: hsl(215, 51%, 70%);
+}
+
+#Cyan {
+    color: hsl(178, 100%, 50%);
+}
+
+/* Neutral colors */
+
+.dark blue {
+    color: hsl(215, 32%, 27%);
+}
+
+
+
 .container {
     height: 100vh;
     width: 100vw;
@@ -22,6 +43,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: hsl(216, 50%, 16%);
 }
 
 .img-div {
@@ -34,4 +56,38 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+.text-div {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+.text-div h3 {
+    font-weight: 600;
+}
+
+.text-div p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    
+}
+
+.lower-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bottom-div {
+    display: flex;
+    
+}
+
+.bottom-div img {
+  border: 2px solid hsl(215, 51%, 70%);
+  height: 25px;
 }
